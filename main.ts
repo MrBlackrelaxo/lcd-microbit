@@ -1,3 +1,6 @@
+/**
+ * https://github.com/makecode-extensions/i2cLCD1602
+ */
 input.onButtonPressed(Button.A, function () {
     I2C_LCD1602.clear()
     I2C_LCD1602.ShowString("1", 0, 0)
